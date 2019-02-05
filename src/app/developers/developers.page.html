@@ -1,0 +1,50 @@
+<ion-header color="success">
+    <ion-toolbar color="success">
+        <ion-back-button slot="start" color="dark" text="" defaultHref="tree-list"></ion-back-button>
+      
+             
+      <ion-title> Equipe </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+    <ion-list>
+      <ion-card *ngFor="let item of Equipe">
+
+        <ion-card-header>
+          <img src="{{ item.img }}">
+        </ion-card-header>
+        <ion-card-content>
+          <ion-card-title text-center>
+              {{ item.nome}}
+          </ion-card-title>
+          <ion-card-subtitle text-center>
+              <h2>{{item.ocupacao}}<br></h2>
+              <a href="{{ item.contato }}">Contato</a>
+             
+          </ion-card-subtitle>
+
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+
+          <ion-card-header >
+            <img id="ltia" src="https://www.ltia.com.br/assets/img/logo.png">
+          </ion-card-header>
+          <ion-card-content>
+            <ion-card-title text-center>
+                LTIA
+            </ion-card-title>
+            <ion-card-subtitle text-center>
+                <h2>Apoiador<br></h2>
+                <a href="https://www.ltia.com.br">Contato</a>
+               
+            </ion-card-subtitle>
+  
+          </ion-card-content>
+        </ion-card>
+      
+      </ion-list>
+
+</ion-content>

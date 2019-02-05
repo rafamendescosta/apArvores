@@ -1,0 +1,29 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+
+@font-face{
+    font-family: PermanentMarker; 
+    src: url('../src/assets/fonts/permanentmarker.woff2');
+}
+@font-face{
+    font-family: Rancho; 
+    src: url('../src/assets/fonts/rancho.woff2');
+}
+@font-face{
+    font-family: YourSelection; 
+    src: url('../src/assets/fonts/yourSelection.woff2');
+}
+@font-face{
+    font-family: PatrickHand; 
+    src: url('../src/assets/fonts/PatrickHand.woff2');
+}
